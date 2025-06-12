@@ -49,6 +49,14 @@ export const FONT_METADATA: Record<number, FontMetadata> = {
       lineHeight: 1.25,
     },
   },
+  [FONT_FAMILY["Ubuntu Sans"]]: {
+    metrics: {
+      unitsPerEm: 2048,
+      ascender: 1577,
+      descender: -471,
+      lineHeight: 1.15,
+    },
+  },
   [FONT_FAMILY["Lilita One"]]: {
     metrics: {
       unitsPerEm: 1000,
